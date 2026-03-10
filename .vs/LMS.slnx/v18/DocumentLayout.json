@@ -1,0 +1,481 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|c:\\users\\eng.hafed\\source\\repos\\lms\\lms\\subscriptions\\frmaddsubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\subscriptions\\frmaddsubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7865CE2C-A68C-434F-BEFB-4A39B0F7237C}|LibraryDB_DataAccess\\LibraryDB_DataAccess.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\librarydb_dataaccess\\clsreservationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7865CE2C-A68C-434F-BEFB-4A39B0F7237C}|LibraryDB_DataAccess\\LibraryDB_DataAccess.csproj|solutionrelative:librarydb_dataaccess\\clsreservationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\members\\frmlistmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\members\\frmlistmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\members\\frmlistmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\members\\frmlistmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\book\\frmaddbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\book\\frmaddbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\author\\frmaddauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\author\\frmaddauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\reservation\\frmlistreservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\reservation\\frmlistreservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\reservation\\frmlistreservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\reservation\\frmlistreservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A89749-E042-4D40-BD33-955BD8C6667C}|LibraryDB_BusinessLayer\\LibraryDB_BusinessLayer.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\librarydb_businesslayer\\clsreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A89749-E042-4D40-BD33-955BD8C6667C}|LibraryDB_BusinessLayer\\LibraryDB_BusinessLayer.csproj|solutionrelative:librarydb_businesslayer\\clsreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\members\\frmshowmemberdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\members\\frmshowmemberdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\members\\frmshowmemberdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\members\\frmshowmemberdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\users\\frmlistusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\users\\frmlistusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\fines\\frmlistmanagefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\fines\\frmlistmanagefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\members\\frmaddupdatemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\members\\frmaddupdatemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\fines\\frmpayfine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\fines\\frmpayfine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A89749-E042-4D40-BD33-955BD8C6667C}|LibraryDB_BusinessLayer\\LibraryDB_BusinessLayer.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\librarydb_businesslayer\\clsbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A89749-E042-4D40-BD33-955BD8C6667C}|LibraryDB_BusinessLayer\\LibraryDB_BusinessLayer.csproj|solutionrelative:librarydb_businesslayer\\clsbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\borrowing\\frmborrowingbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\borrowing\\frmborrowingbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\borrowing\\frmlistborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\borrowing\\frmlistborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\reservation\\frmreservationbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\reservation\\frmreservationbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7865CE2C-A68C-434F-BEFB-4A39B0F7237C}|LibraryDB_DataAccess\\LibraryDB_DataAccess.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\librarydb_dataaccess\\clscopydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7865CE2C-A68C-434F-BEFB-4A39B0F7237C}|LibraryDB_DataAccess\\LibraryDB_DataAccess.csproj|solutionrelative:librarydb_dataaccess\\clscopydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\fines\\frmlistmanagefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\fines\\frmlistmanagefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\borrowing\\frmaddborrowingbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\borrowing\\frmaddborrowingbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A89749-E042-4D40-BD33-955BD8C6667C}|LibraryDB_BusinessLayer\\LibraryDB_BusinessLayer.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\librarydb_businesslayer\\clscopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A89749-E042-4D40-BD33-955BD8C6667C}|LibraryDB_BusinessLayer\\LibraryDB_BusinessLayer.csproj|solutionrelative:librarydb_businesslayer\\clscopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\borrowing\\frmlistborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\borrowing\\frmlistborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\lms\\fines\\frmpayfine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E151725-1458-463A-BEF8-EBAE92E8FF6F}|LMS\\LMS.csproj|solutionrelative:lms\\fines\\frmpayfine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAddSubscription.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Subscriptions\\frmAddSubscription.cs",
+              "RelativeDocumentMoniker": "LMS\\Subscriptions\\frmAddSubscription.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Subscriptions\\frmAddSubscription.cs [Design]",
+              "RelativeToolTip": "LMS\\Subscriptions\\frmAddSubscription.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:12:27.808Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmListMembers.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Members\\frmListMembers.cs",
+              "RelativeDocumentMoniker": "LMS\\Members\\frmListMembers.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Members\\frmListMembers.cs",
+              "RelativeToolTip": "LMS\\Members\\frmListMembers.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwB4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:10:47.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Main\\frmMain.cs",
+              "RelativeDocumentMoniker": "LMS\\Main\\frmMain.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Main\\frmMain.cs [Design]",
+              "RelativeToolTip": "LMS\\Main\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T20:58:12.147Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\frm.cs",
+              "RelativeDocumentMoniker": "LMS\\frm.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\frm.cs",
+              "RelativeToolTip": "LMS\\frm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:47:54.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsReservationData.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LibraryDB_DataAccess\\clsReservationData.cs",
+              "RelativeDocumentMoniker": "LibraryDB_DataAccess\\clsReservationData.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LibraryDB_DataAccess\\clsReservationData.cs",
+              "RelativeToolTip": "LibraryDB_DataAccess\\clsReservationData.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAD4vysAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T01:16:22.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmListReservations.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Reservation\\frmListReservations.cs",
+              "RelativeDocumentMoniker": "LMS\\Reservation\\frmListReservations.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Reservation\\frmListReservations.cs",
+              "RelativeToolTip": "LMS\\Reservation\\frmListReservations.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T10:49:21.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmAddBooks.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Book\\frmAddBooks.cs",
+              "RelativeDocumentMoniker": "LMS\\Book\\frmAddBooks.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Book\\frmAddBooks.cs",
+              "RelativeToolTip": "LMS\\Book\\frmAddBooks.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAwJ4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T10:35:34.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmListMembers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Members\\frmListMembers.cs",
+              "RelativeDocumentMoniker": "LMS\\Members\\frmListMembers.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Members\\frmListMembers.cs [Design]",
+              "RelativeToolTip": "LMS\\Members\\frmListMembers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T00:29:53.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmAddAuthor.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Author\\frmAddAuthor.cs",
+              "RelativeDocumentMoniker": "LMS\\Author\\frmAddAuthor.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Author\\frmAddAuthor.cs",
+              "RelativeToolTip": "LMS\\Author\\frmAddAuthor.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAmwGsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:04:33.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmListReservations.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Reservation\\frmListReservations.cs",
+              "RelativeDocumentMoniker": "LMS\\Reservation\\frmListReservations.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Reservation\\frmListReservations.cs [Design]",
+              "RelativeToolTip": "LMS\\Reservation\\frmListReservations.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T21:48:10.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Main\\frmMain.cs",
+              "RelativeDocumentMoniker": "LMS\\Main\\frmMain.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Main\\frmMain.cs",
+              "RelativeToolTip": "LMS\\Main\\frmMain.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T21:43:25.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmShowMemberDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Members\\frmShowMemberDetails.cs",
+              "RelativeDocumentMoniker": "LMS\\Members\\frmShowMemberDetails.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Members\\frmShowMemberDetails.cs",
+              "RelativeToolTip": "LMS\\Members\\frmShowMemberDetails.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T01:05:31.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "clsReservation.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LibraryDB_BusinessLayer\\clsReservation.cs",
+              "RelativeDocumentMoniker": "LibraryDB_BusinessLayer\\clsReservation.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LibraryDB_BusinessLayer\\clsReservation.cs",
+              "RelativeToolTip": "LibraryDB_BusinessLayer\\clsReservation.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAuwMgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T23:36:04.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmShowMemberDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Members\\frmShowMemberDetails.cs",
+              "RelativeDocumentMoniker": "LMS\\Members\\frmShowMemberDetails.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Members\\frmShowMemberDetails.cs [Design]",
+              "RelativeToolTip": "LMS\\Members\\frmShowMemberDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T00:53:07.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmListUsers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Users\\frmListUsers.cs",
+              "RelativeDocumentMoniker": "LMS\\Users\\frmListUsers.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Users\\frmListUsers.cs [Design]",
+              "RelativeToolTip": "LMS\\Users\\frmListUsers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T00:27:10.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmListManageFines.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Fines\\frmListManageFines.cs",
+              "RelativeDocumentMoniker": "LMS\\Fines\\frmListManageFines.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Fines\\frmListManageFines.cs [Design]",
+              "RelativeToolTip": "LMS\\Fines\\frmListManageFines.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T18:55:47.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmAddUpdateMember.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Members\\frmAddUpdateMember.cs",
+              "RelativeDocumentMoniker": "LMS\\Members\\frmAddUpdateMember.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Members\\frmAddUpdateMember.cs [Design]",
+              "RelativeToolTip": "LMS\\Members\\frmAddUpdateMember.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T20:46:49.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmListBorrowing.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Borrowing\\frmListBorrowing.cs",
+              "RelativeDocumentMoniker": "LMS\\Borrowing\\frmListBorrowing.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Borrowing\\frmListBorrowing.cs",
+              "RelativeToolTip": "LMS\\Borrowing\\frmListBorrowing.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAwJAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T05:11:50.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmPayFine.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Fines\\frmPayFine.cs",
+              "RelativeDocumentMoniker": "LMS\\Fines\\frmPayFine.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Fines\\frmPayFine.cs",
+              "RelativeToolTip": "LMS\\Fines\\frmPayFine.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIAwwBkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:58:39.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "clsBook.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LibraryDB_BusinessLayer\\clsBook.cs",
+              "RelativeDocumentMoniker": "LibraryDB_BusinessLayer\\clsBook.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LibraryDB_BusinessLayer\\clsBook.cs",
+              "RelativeToolTip": "LibraryDB_BusinessLayer\\clsBook.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T01:10:00.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmBorrowingBook.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Borrowing\\frmBorrowingBook.cs",
+              "RelativeDocumentMoniker": "LMS\\Borrowing\\frmBorrowingBook.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Borrowing\\frmBorrowingBook.cs",
+              "RelativeToolTip": "LMS\\Borrowing\\frmBorrowingBook.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA3wCkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T03:24:48.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmReservationBook.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Reservation\\frmReservationBook.cs",
+              "RelativeDocumentMoniker": "LMS\\Reservation\\frmReservationBook.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Reservation\\frmReservationBook.cs [Design]",
+              "RelativeToolTip": "LMS\\Reservation\\frmReservationBook.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T01:20:22.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "clsCopyData.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LibraryDB_DataAccess\\clsCopyData.cs",
+              "RelativeDocumentMoniker": "LibraryDB_DataAccess\\clsCopyData.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LibraryDB_DataAccess\\clsCopyData.cs",
+              "RelativeToolTip": "LibraryDB_DataAccess\\clsCopyData.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAgwPUBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T01:13:26.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "clsCopy.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LibraryDB_BusinessLayer\\clsCopy.cs",
+              "RelativeDocumentMoniker": "LibraryDB_BusinessLayer\\clsCopy.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LibraryDB_BusinessLayer\\clsCopy.cs",
+              "RelativeToolTip": "LibraryDB_BusinessLayer\\clsCopy.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAswF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T01:12:26.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmAddBorrowingBook.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Borrowing\\frmAddBorrowingBook.cs",
+              "RelativeDocumentMoniker": "LMS\\Borrowing\\frmAddBorrowingBook.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Borrowing\\frmAddBorrowingBook.cs [Design]",
+              "RelativeToolTip": "LMS\\Borrowing\\frmAddBorrowingBook.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T01:21:30.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmListManageFines.cs",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Fines\\frmListManageFines.cs",
+              "RelativeDocumentMoniker": "LMS\\Fines\\frmListManageFines.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Fines\\frmListManageFines.cs",
+              "RelativeToolTip": "LMS\\Fines\\frmListManageFines.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA/wBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T19:01:13.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmPayFine.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Fines\\frmPayFine.cs",
+              "RelativeDocumentMoniker": "LMS\\Fines\\frmPayFine.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Fines\\frmPayFine.cs [Design]",
+              "RelativeToolTip": "LMS\\Fines\\frmPayFine.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T23:32:17.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmListBorrowing.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Borrowing\\frmListBorrowing.cs",
+              "RelativeDocumentMoniker": "LMS\\Borrowing\\frmListBorrowing.cs",
+              "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Borrowing\\frmListBorrowing.cs [Design]",
+              "RelativeToolTip": "LMS\\Borrowing\\frmListBorrowing.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T07:00:21.353Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

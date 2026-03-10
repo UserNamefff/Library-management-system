@@ -1,0 +1,9 @@
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_BusinessLayer\bin\Debug\LibraryDB_BusinessLayer.dll
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_BusinessLayer\bin\Debug\LibraryDB_BusinessLayer.pdb
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_BusinessLayer\bin\Debug\LibraryDB_DataAccess.dll
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_BusinessLayer\bin\Debug\LibraryDB_DataAccess.pdb
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_BusinessLayer\obj\Debug\LibraryDB_BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_BusinessLayer\obj\Debug\LibraryDB_BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_BusinessLayer\obj\Debug\LibraryD.DD198DE6.Up2Date
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_BusinessLayer\obj\Debug\LibraryDB_BusinessLayer.dll
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_BusinessLayer\obj\Debug\LibraryDB_BusinessLayer.pdb

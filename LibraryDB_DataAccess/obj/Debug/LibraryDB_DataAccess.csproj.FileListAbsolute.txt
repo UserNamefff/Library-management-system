@@ -1,0 +1,6 @@
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_DataAccess\bin\Debug\LibraryDB_DataAccess.dll
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_DataAccess\bin\Debug\LibraryDB_DataAccess.pdb
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_DataAccess\obj\Debug\LibraryDB_DataAccess.csproj.AssemblyReference.cache
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_DataAccess\obj\Debug\LibraryDB_DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_DataAccess\obj\Debug\LibraryDB_DataAccess.dll
+C:\Users\Eng.Hafed\source\repos\LMS\LibraryDB_DataAccess\obj\Debug\LibraryDB_DataAccess.pdb

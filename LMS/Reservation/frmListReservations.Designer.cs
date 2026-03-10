@@ -1,0 +1,341 @@
+﻿namespace LMS.Reservation
+{
+    partial class frmListReservations
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.dgvListReservations = new Guna.UI.WinForms.GunaDataGridView();
+            this.cnxBorrowingBook = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.ShowFineDetails = new System.Windows.Forms.ToolStripMenuItem();
+            this.PayFine = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblReservationsNo = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.btnAddReservations = new Guna.UI.WinForms.GunaButton();
+            this.cmbFillter = new Guna.UI.WinForms.GunaComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnClose = new Guna.UI.WinForms.GunaButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListReservations)).BeginInit();
+            this.cnxBorrowingBook.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dgvListReservations
+            // 
+            this.dgvListReservations.AllowUserToAddRows = false;
+            this.dgvListReservations.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            this.dgvListReservations.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.dgvListReservations.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvListReservations.BackgroundColor = System.Drawing.Color.White;
+            this.dgvListReservations.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgvListReservations.CausesValidation = false;
+            this.dgvListReservations.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvListReservations.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.dgvListReservations.ColumnHeadersHeight = 25;
+            this.dgvListReservations.ContextMenuStrip = this.cnxBorrowingBook;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvListReservations.DefaultCellStyle = dataGridViewCellStyle7;
+            this.dgvListReservations.EnableHeadersVisualStyles = false;
+            this.dgvListReservations.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            this.dgvListReservations.Location = new System.Drawing.Point(7, 286);
+            this.dgvListReservations.MultiSelect = false;
+            this.dgvListReservations.Name = "dgvListReservations";
+            this.dgvListReservations.ReadOnly = true;
+            this.dgvListReservations.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvListReservations.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.dgvListReservations.RowHeadersVisible = false;
+            this.dgvListReservations.RowHeadersWidth = 51;
+            this.dgvListReservations.RowTemplate.Height = 26;
+            this.dgvListReservations.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvListReservations.Size = new System.Drawing.Size(1536, 295);
+            this.dgvListReservations.StandardTab = true;
+            this.dgvListReservations.TabIndex = 286;
+            this.dgvListReservations.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.LightGrid;
+            this.dgvListReservations.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgvListReservations.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgvListReservations.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dgvListReservations.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dgvListReservations.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dgvListReservations.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.dgvListReservations.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            this.dgvListReservations.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            this.dgvListReservations.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised;
+            this.dgvListReservations.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.dgvListReservations.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.Black;
+            this.dgvListReservations.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dgvListReservations.ThemeStyle.HeaderStyle.Height = 25;
+            this.dgvListReservations.ThemeStyle.ReadOnly = true;
+            this.dgvListReservations.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgvListReservations.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgvListReservations.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.dgvListReservations.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.dgvListReservations.ThemeStyle.RowsStyle.Height = 26;
+            this.dgvListReservations.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            this.dgvListReservations.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            // 
+            // cnxBorrowingBook
+            // 
+            this.cnxBorrowingBook.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cnxBorrowingBook.ImageScalingSize = new System.Drawing.Size(35, 35);
+            this.cnxBorrowingBook.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ShowFineDetails,
+            this.PayFine,
+            this.ToolStripMenuItem});
+            this.cnxBorrowingBook.Name = "contextMenuStrip1";
+            this.cnxBorrowingBook.Size = new System.Drawing.Size(287, 130);
+            this.cnxBorrowingBook.Text = "contextMenuStrip1";
+            // 
+            // ShowFineDetails
+            // 
+            this.ShowFineDetails.Image = global::LMS.Properties.Resources.info;
+            this.ShowFineDetails.Name = "ShowFineDetails";
+            this.ShowFineDetails.Size = new System.Drawing.Size(286, 42);
+            this.ShowFineDetails.Text = "&Show Fine Details";
+            // 
+            // PayFine
+            // 
+            this.PayFine.Image = global::LMS.Properties.Resources._10_borrow_book;
+            this.PayFine.Name = "PayFine";
+            this.PayFine.Size = new System.Drawing.Size(286, 42);
+            this.PayFine.Text = "Pay Fine";
+            // 
+            // ToolStripMenuItem
+            // 
+            this.ToolStripMenuItem.Image = global::LMS.Properties.Resources.return_book_png;
+            this.ToolStripMenuItem.Name = "ToolStripMenuItem";
+            this.ToolStripMenuItem.Size = new System.Drawing.Size(286, 42);
+            this.ToolStripMenuItem.Text = "Anything";
+            // 
+            // lblReservationsNo
+            // 
+            this.lblReservationsNo.AutoSize = true;
+            this.lblReservationsNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReservationsNo.Location = new System.Drawing.Point(120, 599);
+            this.lblReservationsNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblReservationsNo.Name = "lblReservationsNo";
+            this.lblReservationsNo.Size = new System.Drawing.Size(48, 25);
+            this.lblReservationsNo.TabIndex = 290;
+            this.lblReservationsNo.Text = "###";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(7, 598);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(111, 25);
+            this.label4.TabIndex = 289;
+            this.label4.Text = "Fines No :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(628, 143);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(323, 36);
+            this.label1.TabIndex = 288;
+            this.label1.Text = "Manage Reservations";
+            // 
+            // btnAddReservations
+            // 
+            this.btnAddReservations.AnimationHoverSpeed = 0.07F;
+            this.btnAddReservations.AnimationSpeed = 0.03F;
+            this.btnAddReservations.BackColor = System.Drawing.Color.Transparent;
+            this.btnAddReservations.BaseColor = System.Drawing.Color.White;
+            this.btnAddReservations.BorderColor = System.Drawing.Color.Maroon;
+            this.btnAddReservations.BorderSize = 1;
+            this.btnAddReservations.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnAddReservations.FocusedColor = System.Drawing.Color.Empty;
+            this.btnAddReservations.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddReservations.ForeColor = System.Drawing.Color.Black;
+            this.btnAddReservations.Image = global::LMS.Properties.Resources.AddAppointment_32;
+            this.btnAddReservations.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnAddReservations.ImageSize = new System.Drawing.Size(45, 45);
+            this.btnAddReservations.Location = new System.Drawing.Point(1456, 208);
+            this.btnAddReservations.Name = "btnAddReservations";
+            this.btnAddReservations.OnHoverBaseColor = System.Drawing.Color.White;
+            this.btnAddReservations.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnAddReservations.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnAddReservations.OnHoverImage = null;
+            this.btnAddReservations.OnPressedColor = System.Drawing.Color.Black;
+            this.btnAddReservations.Radius = 10;
+            this.btnAddReservations.Size = new System.Drawing.Size(87, 72);
+            this.btnAddReservations.TabIndex = 292;
+            this.toolTip1.SetToolTip(this.btnAddReservations, "Pay Fine");
+            // 
+            // cmbFillter
+            // 
+            this.cmbFillter.BackColor = System.Drawing.Color.Transparent;
+            this.cmbFillter.BaseColor = System.Drawing.Color.White;
+            this.cmbFillter.BorderColor = System.Drawing.Color.Lime;
+            this.cmbFillter.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbFillter.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFillter.FocusedColor = System.Drawing.Color.Empty;
+            this.cmbFillter.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbFillter.ForeColor = System.Drawing.Color.Black;
+            this.cmbFillter.FormattingEnabled = true;
+            this.cmbFillter.Items.AddRange(new object[] {
+            "All",
+            "Reserved",
+            "Canceled"});
+            this.cmbFillter.Location = new System.Drawing.Point(125, 247);
+            this.cmbFillter.Name = "cmbFillter";
+            this.cmbFillter.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cmbFillter.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.cmbFillter.Radius = 15;
+            this.cmbFillter.Size = new System.Drawing.Size(263, 31);
+            this.cmbFillter.StartIndex = 0;
+            this.cmbFillter.TabIndex = 294;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(6, 248);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(115, 25);
+            this.label2.TabIndex = 293;
+            this.label2.Text = "Fillter By  :";
+            // 
+            // btnClose
+            // 
+            this.btnClose.AnimationHoverSpeed = 0.07F;
+            this.btnClose.AnimationSpeed = 0.03F;
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.BaseColor = System.Drawing.Color.White;
+            this.btnClose.BorderColor = System.Drawing.SystemColors.Desktop;
+            this.btnClose.BorderSize = 2;
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnClose.FocusedColor = System.Drawing.Color.Empty;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ForeColor = System.Drawing.Color.Black;
+            this.btnClose.Image = global::LMS.Properties.Resources.Close_64;
+            this.btnClose.ImageSize = new System.Drawing.Size(23, 23);
+            this.btnClose.Location = new System.Drawing.Point(1417, 588);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnClose.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnClose.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnClose.OnHoverImage = null;
+            this.btnClose.OnPressedColor = System.Drawing.Color.Black;
+            this.btnClose.Radius = 10;
+            this.btnClose.Size = new System.Drawing.Size(126, 42);
+            this.btnClose.TabIndex = 291;
+            this.btnClose.Text = "Close";
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::LMS.Properties.Resources.reservation__1__;
+            this.pictureBox1.Location = new System.Drawing.Point(649, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(273, 138);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 287;
+            this.pictureBox1.TabStop = false;
+            // 
+            // frmListReservations
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(1555, 642);
+            this.Controls.Add(this.dgvListReservations);
+            this.Controls.Add(this.lblReservationsNo);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.cmbFillter);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnAddReservations);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "frmListReservations";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "frmListReservations";
+            this.Load += new System.EventHandler(this.frmListReservations_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListReservations)).EndInit();
+            this.cnxBorrowingBook.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Guna.UI.WinForms.GunaDataGridView dgvListReservations;
+        private System.Windows.Forms.ContextMenuStrip cnxBorrowingBook;
+        private System.Windows.Forms.ToolStripMenuItem ShowFineDetails;
+        private System.Windows.Forms.ToolStripMenuItem PayFine;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem;
+        private System.Windows.Forms.Label lblReservationsNo;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private Guna.UI.WinForms.GunaButton btnAddReservations;
+        private Guna.UI.WinForms.GunaComboBox cmbFillter;
+        private System.Windows.Forms.Label label2;
+        private Guna.UI.WinForms.GunaButton btnClose;
+        private System.Windows.Forms.PictureBox pictureBox1;
+    }
+}

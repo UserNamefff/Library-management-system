@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E151725-1458-463A-BEF8-EBAE92E8FF6F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LMS</RootNamespace>
+    <AssemblyName>LMS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI">
+      <HintPath>D:\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Author\frmAddAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Author\frmAddAuthor.Designer.cs">
+      <DependentUpon>frmAddAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\ctrlBookCardWithFillter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Book\ctrlBookCardWithFillter.Designer.cs">
+      <DependentUpon>ctrlBookCardWithFillter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\ctrlBookDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Book\ctrlBookDetails.Designer.cs">
+      <DependentUpon>ctrlBookDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\frmFindBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book\frmFindBook.Designer.cs">
+      <DependentUpon>frmFindBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\frmListBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book\frmListBooks.Designer.cs">
+      <DependentUpon>frmListBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\frmShowBookDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book\frmShowBookDetails.Designer.cs">
+      <DependentUpon>frmShowBookDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Borrowing\Controls\ctrlBorrowingDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Borrowing\Controls\ctrlBorrowingDetails.Designer.cs">
+      <DependentUpon>ctrlBorrowingDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Borrowing\frmAddBorrowingBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrowing\frmAddBorrowingBook.Designer.cs">
+      <DependentUpon>frmAddBorrowingBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Borrowing\frmBorrowingBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrowing\frmBorrowingBook.Designer.cs">
+      <DependentUpon>frmBorrowingBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Borrowing\frmBorrowingDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrowing\frmBorrowingDetails.Designer.cs">
+      <DependentUpon>frmBorrowingDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Borrowing\frmListBorrowing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrowing\frmListBorrowing.Designer.cs">
+      <DependentUpon>frmListBorrowing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copies\Controls\ctrlBookCopiesCardWithFillter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Copies\Controls\ctrlBookCopiesCardWithFillter.Designer.cs">
+      <DependentUpon>ctrlBookCopiesCardWithFillter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copies\Controls\ctrlBookCopyInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Copies\Controls\ctrlBookCopyInfo.Designer.cs">
+      <DependentUpon>ctrlBookCopyInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copies\frmAddBookCopies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Copies\frmAddBookCopies.Designer.cs">
+      <DependentUpon>frmAddBookCopies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copies\frmShowBookCopyDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Copies\frmShowBookCopyDetails.Designer.cs">
+      <DependentUpon>frmShowBookCopyDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fines\frmListManageFines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fines\frmListManageFines.Designer.cs">
+      <DependentUpon>frmListManageFines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fines\frmPayFine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fines\frmPayFine.Designer.cs">
+      <DependentUpon>frmPayFine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\frmAddBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book\frmAddBooks.Designer.cs">
+      <DependentUpon>frmAddBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copies\frmListCopies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Copies\frmListCopies.Designer.cs">
+      <DependentUpon>frmListCopies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm.Designer.cs">
+      <DependentUpon>frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global Classes\clsFormat.cs" />
+    <Compile Include="Global Classes\clsGlobal.cs" />
+    <Compile Include="Global Classes\clsValidatoin.cs" />
+    <Compile Include="Global Classes\util.cs" />
+    <Compile Include="Main\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Members\ctrlMemberDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Members\ctrlMemberDetails.Designer.cs">
+      <DependentUpon>ctrlMemberDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Members\ctrlMemberInfoWithFillter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Members\ctrlMemberInfoWithFillter.Designer.cs">
+      <DependentUpon>ctrlMemberInfoWithFillter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Members\frmAddUpdateMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Members\frmAddUpdateMember.Designer.cs">
+      <DependentUpon>frmAddUpdateMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Members\frmListMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Members\frmListMembers.Designer.cs">
+      <DependentUpon>frmListMembers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Members\frmShowMemberDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Members\frmShowMemberDetails.Designer.cs">
+      <DependentUpon>frmShowMemberDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\Controls\ctrlPersonCard1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People\Controls\ctrlPersonCard1.Designer.cs">
+      <DependentUpon>ctrlPersonCard1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\Controls\ctrlPersonCardWithFillter1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People\Controls\ctrlPersonCardWithFillter1.Designer.cs">
+      <DependentUpon>ctrlPersonCardWithFillter1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmAddUpdatePerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmAddUpdatePerson.Designer.cs">
+      <DependentUpon>frmAddUpdatePerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmFindPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmFindPerson.Designer.cs">
+      <DependentUpon>frmFindPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmListPeople.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmListPeople.Designer.cs">
+      <DependentUpon>frmListPeople.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmShowPersonDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmShowPersonDetails.Designer.cs">
+      <DependentUpon>frmShowPersonDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation\frmListReservations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservation\frmListReservations.Designer.cs">
+      <DependentUpon>frmListReservations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation\frmReservationBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservation\frmReservationBook.Designer.cs">
+      <DependentUpon>frmReservationBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subscriptions\frmAddSubscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subscriptions\frmAddSubscription.Designer.cs">
+      <DependentUpon>frmAddSubscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmAddUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmAddUpdateUser.Designer.cs">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmListUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmListUsers.Designer.cs">
+      <DependentUpon>frmListUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmUserInfo.Designer.cs">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Author\frmAddAuthor.resx">
+      <DependentUpon>frmAddAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\ctrlBookCardWithFillter.resx">
+      <DependentUpon>ctrlBookCardWithFillter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\ctrlBookDetails.resx">
+      <DependentUpon>ctrlBookDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\frmFindBook.resx">
+      <DependentUpon>frmFindBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\frmListBooks.resx">
+      <DependentUpon>frmListBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\frmShowBookDetails.resx">
+      <DependentUpon>frmShowBookDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Borrowing\Controls\ctrlBorrowingDetails.resx">
+      <DependentUpon>ctrlBorrowingDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Borrowing\frmAddBorrowingBook.resx">
+      <DependentUpon>frmAddBorrowingBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Borrowing\frmBorrowingBook.resx">
+      <DependentUpon>frmBorrowingBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Borrowing\frmBorrowingDetails.resx">
+      <DependentUpon>frmBorrowingDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Borrowing\frmListBorrowing.resx">
+      <DependentUpon>frmListBorrowing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copies\Controls\ctrlBookCopiesCardWithFillter.resx">
+      <DependentUpon>ctrlBookCopiesCardWithFillter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copies\Controls\ctrlBookCopyInfo.resx">
+      <DependentUpon>ctrlBookCopyInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copies\frmAddBookCopies.resx">
+      <DependentUpon>frmAddBookCopies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copies\frmShowBookCopyDetails.resx">
+      <DependentUpon>frmShowBookCopyDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fines\frmListManageFines.resx">
+      <DependentUpon>frmListManageFines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fines\frmPayFine.resx">
+      <DependentUpon>frmPayFine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\frmAddBooks.resx">
+      <DependentUpon>frmAddBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copies\frmListCopies.resx">
+      <DependentUpon>frmListCopies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm.resx">
+      <DependentUpon>frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Members\ctrlMemberDetails.resx">
+      <DependentUpon>ctrlMemberDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Members\ctrlMemberInfoWithFillter.resx">
+      <DependentUpon>ctrlMemberInfoWithFillter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Members\frmAddUpdateMember.resx">
+      <DependentUpon>frmAddUpdateMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Members\frmListMembers.resx">
+      <DependentUpon>frmListMembers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Members\frmShowMemberDetails.resx">
+      <DependentUpon>frmShowMemberDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\Controls\ctrlPersonCard1.resx">
+      <DependentUpon>ctrlPersonCard1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\Controls\ctrlPersonCardWithFillter1.resx">
+      <DependentUpon>ctrlPersonCardWithFillter1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmAddUpdatePerson.resx">
+      <DependentUpon>frmAddUpdatePerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmFindPerson.resx">
+      <DependentUpon>frmFindPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmListPeople.resx">
+      <DependentUpon>frmListPeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmShowPersonDetails.resx">
+      <DependentUpon>frmShowPersonDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservation\frmListReservations.resx">
+      <DependentUpon>frmListReservations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservation\frmReservationBook.resx">
+      <DependentUpon>frmReservationBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subscriptions\frmAddSubscription.resx">
+      <DependentUpon>frmAddSubscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmAddUpdateUser.resx">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmListUsers.resx">
+      <DependentUpon>frmListUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmUserInfo.resx">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryDB_BusinessLayer\LibraryDB_BusinessLayer.csproj">
+      <Project>{36a89749-e042-4d40-bd33-955bd8c6667c}</Project>
+      <Name>LibraryDB_BusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\10_borrow book.png" />
+    <None Include="Resources\10_borrow book1.png" />
+    <Content Include="Resources\123456.png" />
+    <Content Include="Resources\13_delivering books.png" />
+    <None Include="Resources\13_delivering books1.png" />
+    <Content Include="Resources\28480849_Tiny author with pencil writing- editing information.jpg" />
+    <Content Include="Resources\3d-calendar.png" />
+    <None Include="Resources\3d-calendar1.png" />
+    <Content Include="Resources\3d-map.png" />
+    <None Include="Resources\3d-map1.png" />
+    <Content Include="Resources\3d-notes.png" />
+    <None Include="Resources\3d-notes1.png" />
+    <Content Include="Resources\account_settings 64.png" />
+    <None Include="Resources\account_settings 641.png" />
+    <Content Include="Resources\add book.gif" />
+    <Content Include="Resources\add book.png" />
+    <None Include="Resources\add book1.gif" />
+    <Content Include="Resources\Add New User 32.png" />
+    <None Include="Resources\Add New User 321.png" />
+    <Content Include="Resources\Add New User 72.png" />
+    <None Include="Resources\Add New User 721.png" />
+    <Content Include="Resources\Add Person 40.png" />
+    <None Include="Resources\Add Person 401.png" />
+    <Content Include="Resources\Add Person 72.png" />
+    <None Include="Resources\Add Person 721.png" />
+    <Content Include="Resources\add user.png" />
+    <Content Include="Resources\add.png" />
+    <Content Include="Resources\add1.png" />
+    <Content Include="Resources\add2.png" />
+    <None Include="Resources\add3.png" />
+    <None Include="Resources\add4.png" />
+    <Content Include="Resources\AddAppointment 32.png" />
+    <None Include="Resources\AddAppointment 321.png" />
+    <Content Include="Resources\AddPerson 32.png" />
+    <None Include="Resources\AddPerson 321.png" />
+    <Content Include="Resources\Address 32.png" />
+    <None Include="Resources\Address 321.png" />
+    <Content Include="Resources\addstudent.gif" />
+    <None Include="Resources\addstudent1.gif" />
+    <Content Include="Resources\Application Types 512.png" />
+    <None Include="Resources\Application Types 5121.png" />
+    <Content Include="Resources\Application Types 64.png" />
+    <None Include="Resources\Application Types 641.png" />
+    <Content Include="Resources\Applications 64.png" />
+    <None Include="Resources\Applications 641.png" />
+    <Content Include="Resources\Applications.png" />
+    <None Include="Resources\Applications1.png" />
+    <Content Include="Resources\ApplicationTitle.png" />
+    <None Include="Resources\ApplicationTitle1.png" />
+    <Content Include="Resources\ApplicationType.png" />
+    <None Include="Resources\automatic-payment1.png" />
+    <None Include="Resources\banking1.png" />
+    <None Include="Resources\ApplicationType1.png" />
+    <Content Include="Resources\barcode.png" />
+    <Content Include="Resources\Bibliophile.gif" />
+    <Content Include="Resources\biography.png" />
+    <Content Include="Resources\book %281%29.png" />
+    <Content Include="Resources\book %281%291.png" />
+    <Content Include="Resources\book %281%292.png" />
+    <Content Include="Resources\book %282%29.png" />
+    <Content Include="Resources\book %282%291.png" />
+    <Content Include="Resources\book1.png" />
+    <Content Include="Resources\book2.png" />
+    <Content Include="Resources\book3.png" />
+    <None Include="Resources\book4.png" />
+    <None Include="Resources\books1.png" />
+    <Content Include="Resources\books_library_shelves_138556_1920x1080.jpg" />
+    <None Include="Resources\books_library_shelves_138556_1920x10801.jpg" />
+    <Content Include="Resources\bookworm-high-resolution-logo-transparent %281%29.png" />
+    <Content Include="Resources\bookworm-high-resolution-logo-transparent %281%291.png" />
+    <None Include="Resources\borrow %283%291.png" />
+    <None Include="Resources\borrow %282%291.png" />
+    <None Include="Resources\borrow %281%291.png" />
+    <None Include="Resources\borrow1.png" />
+    <Content Include="Resources\boss.png" />
+    <Content Include="Resources\Calendar 32.png" />
+    <None Include="Resources\Calendar 321.png" />
+    <Content Include="Resources\call 32.png" />
+    <None Include="Resources\call 321.png" />
+    <Content Include="Resources\Cars 48.png" />
+    <None Include="Resources\Cars 481.png" />
+    <Content Include="Resources\Close 32.png" />
+    <None Include="Resources\Close 321.png" />
+    <Content Include="Resources\Close 64.png" />
+    <None Include="Resources\Close 641.png" />
+    <Content Include="Resources\CloseBlack.png" />
+    <Content Include="Resources\CloseBlack1.png" />
+    <None Include="Resources\CloseBlack2.png" />
+    <None Include="Resources\CloseBlack11.png" />
+    <Content Include="Resources\closeBlack32.png" />
+    <None Include="Resources\closeBlack321.png" />
+    <Content Include="Resources\connection.png" />
+    <Content Include="Resources\Count 32.png" />
+    <None Include="Resources\Count 321.png" />
+    <Content Include="Resources\Country 32.png" />
+    <None Include="Resources\Country 321.png" />
+    <Content Include="Resources\cross 32.png" />
+    <None Include="Resources\cross 321.png" />
+    <Content Include="Resources\cross 64.png" />
+    <None Include="Resources\cross 641.png" />
+    <Content Include="Resources\Damaged Driving License 32.png" />
+    <None Include="Resources\Damaged Driving License 321.png" />
+    <Content Include="Resources\dashboard %281%29.png" />
+    <Content Include="Resources\dashboard.png" />
+    <Content Include="Resources\deash1.jpg" />
+    <None Include="Resources\deash11.jpg" />
+    <Content Include="Resources\Delete 32 2.png" />
+    <None Include="Resources\Delete 32 21.png" />
+    <Content Include="Resources\Delete 32.png" />
+    <None Include="Resources\Delete 321.png" />
+    <Content Include="Resources\delete.png" />
+    <Content Include="Resources\department.png" />
+    <Content Include="Resources\Detain 32.png" />
+    <None Include="Resources\Detain 321.png" />
+    <Content Include="Resources\Detain 512.png" />
+    <None Include="Resources\Detain 5121.png" />
+    <Content Include="Resources\Detain 64.png" />
+    <None Include="Resources\Detain 641.png" />
+    <Content Include="Resources\Detained Driving License 32.png" />
+    <None Include="Resources\Detained Driving License 321.png" />
+    <Content Include="Resources\Driver License 32.png" />
+    <None Include="Resources\Driver License 321.png" />
+    <Content Include="Resources\Driver Main.png" />
+    <None Include="Resources\Driver Main1.png" />
+    <Content Include="Resources\Drivers 64.png" />
+    <None Include="Resources\Drivers 641.png" />
+    <Content Include="Resources\driving-test 512.png" />
+    <None Include="Resources\driving-test 5121.png" />
+    <Content Include="Resources\DVLD Logo.png" />
+    <None Include="Resources\DVLD Logo1.png" />
+    <Content Include="Resources\edit 32.png" />
+    <None Include="Resources\edit 321.png" />
+    <Content Include="Resources\editor.png" />
+    <Content Include="Resources\editor1.png" />
+    <Content Include="Resources\Email 32.png" />
+    <None Include="Resources\Email 321.png" />
+    <Content Include="Resources\employee.png" />
+    <Content Include="Resources\exit.png" />
+    <Content Include="Resources\Faild.png" />
+    <None Include="Resources\Faild1.png" />
+    <Content Include="Resources\Female 512.png" />
+    <None Include="Resources\Female 5121.png" />
+    <Content Include="Resources\female.png" />
+    <Content Include="Resources\find.png" />
+    <Content Include="Resources\find1.png" />
+    <Content Include="Resources\fine.png" />
+    <Content Include="Resources\fine1.png" />
+    <Content Include="Resources\folder %281%29.png" />
+    <Content Include="Resources\folder.png" />
+    <Content Include="Resources\giphy.gif" />
+    <None Include="Resources\giphy1.gif" />
+    <Content Include="Resources\gmail.png" />
+    <None Include="Resources\hotel1.png" />
+    <Content Include="Resources\IconLogo.png" />
+    <None Include="Resources\IconLogo1.png" />
+    <Content Include="Resources\icons8-add-book-48.png" />
+    <None Include="Resources\icons8-add-book-481.png" />
+    <Content Include="Resources\icons8-add-book-96.png" />
+    <None Include="Resources\icons8-add-book-961.png" />
+    <Content Include="Resources\icons8-add-user-male-50.png" />
+    <None Include="Resources\icons8-add-user-male-501.png" />
+    <Content Include="Resources\icons8-address-book-100.png" />
+    <None Include="Resources\icons8-address-book-1001.png" />
+    <Content Include="Resources\icons8-book-philosophy-50.png" />
+    <None Include="Resources\icons8-book-philosophy-501.png" />
+    <Content Include="Resources\icons8-bookmark-book-64.png" />
+    <None Include="Resources\icons8-bookmark-book-641.png" />
+    <Content Include="Resources\icons8-books-50.png" />
+    <None Include="Resources\icons8-books-501.png" />
+    <Content Include="Resources\icons8-exit-sign-50.png" />
+    <None Include="Resources\icons8-exit-sign-501.png" />
+    <Content Include="Resources\icons8-return-book-50.png" />
+    <None Include="Resources\icons8-return-book-501.png" />
+    <Content Include="Resources\icons8-return-book-64.png" />
+    <None Include="Resources\icons8-return-book-641.png" />
+    <Content Include="Resources\icons8-student-male-100.png" />
+    <Content Include="Resources\icons8-student-male-1000.png" />
+    <None Include="Resources\icons8-student-male-1001.png" />
+    <None Include="Resources\icons8-student-male-10001.png" />
+    <Content Include="Resources\icons8-student-male-50.png" />
+    <None Include="Resources\icons8-student-male-501.png" />
+    <Content Include="Resources\icons8-view-50.png" />
+    <Content Include="Resources\icons8-view-501.png" />
+    <None Include="Resources\icons8-view-502.png" />
+    <None Include="Resources\icons8-view-5011.png" />
+    <Content Include="Resources\id-card %282%29.png" />
+    <Content Include="Resources\id-card1.png" />
+    <Content Include="Resources\id.png" />
+    <Content Include="Resources\image_processing20191025-19942-14gi0n7.gif" />
+    <None Include="Resources\image_processing20191025-19942-14gi0n71.gif" />
+    <Content Include="Resources\IMG-20241007-WA0009.jpg" />
+    <None Include="Resources\IMG-20241007-WA00091.jpg" />
+    <Content Include="Resources\info.png" />
+    <Content Include="Resources\information-pamphlet.png" />
+    <Content Include="Resources\International 32.png" />
+    <None Include="Resources\International 321.png" />
+    <Content Include="Resources\issue book.png" />
+    <Content Include="Resources\issue.png" />
+    <Content Include="Resources\issueBook.gif" />
+    <None Include="Resources\issueBook1.gif" />
+    <Content Include="Resources\IssueDrivingLicense 32.png" />
+    <None Include="Resources\IssueDrivingLicense 321.png" />
+    <Content Include="Resources\Knowledge-cuate.png" />
+    <Content Include="Resources\learning-tools.png" />
+    <Content Include="Resources\librarian.png" />
+    <Content Include="Resources\library-700x400.jpg" />
+    <None Include="Resources\library-card1.png" />
+    <None Include="Resources\library-book1.png" />
+    <Content Include="Resources\library-with-books.jpg" />
+    <None Include="Resources\library-with-books1.jpg" />
+    <Content Include="Resources\library.png" />
+    <Content Include="Resources\libraryLogin.png" />
+    <Content Include="Resources\Library_Book_532388_1366x768.jpg" />
+    <Content Include="Resources\License Type 32.png" />
+    <None Include="Resources\License Type 321.png" />
+    <Content Include="Resources\License View 32.png" />
+    <None Include="Resources\License View 321.png" />
+    <Content Include="Resources\LicenseView 400.png" />
+    <None Include="Resources\LicenseView 4001.png" />
+    <Content Include="Resources\List 32.png" />
+    <None Include="Resources\List 321.png" />
+    <Content Include="Resources\Local 32.png" />
+    <None Include="Resources\Local 321.png" />
+    <Content Include="Resources\Local Driving License 512.png" />
+    <Content Include="Resources\Local Driving License 5121.png" />
+    <None Include="Resources\Local Driving License 5122.png" />
+    <None Include="Resources\Local Driving License 51211.png" />
+    <Content Include="Resources\LocalDriving License.png" />
+    <None Include="Resources\LocalDriving License1.png" />
+    <Content Include="Resources\Login background.PNG" />
+    <Content Include="Resources\login.png" />
+    <Content Include="Resources\Logo Final.jpg" />
+    <None Include="Resources\Logo Final1.jpg" />
+    <Content Include="Resources\logout %281%29.png" />
+    <Content Include="Resources\logout %281%291.png" />
+    <Content Include="Resources\logout.png" />
+    <Content Include="Resources\Lost Driving License 32.png" />
+    <None Include="Resources\Lost Driving License 321.png" />
+    <Content Include="Resources\main.ico" />
+    <Content Include="Resources\Male 512.png" />
+    <None Include="Resources\Male 5121.png" />
+    <Content Include="Resources\male.png" />
+    <Content Include="Resources\Man 32.png" />
+    <None Include="Resources\Man 321.png" />
+    <Content Include="Resources\man.png" />
+    <Content Include="Resources\man1.png" />
+    <Content Include="Resources\Manage Applications 32.png" />
+    <None Include="Resources\Manage Applications 321.png" />
+    <Content Include="Resources\Manage Applications 64.png" />
+    <None Include="Resources\Manage Applications 641.png" />
+    <Content Include="Resources\Manage People.png" />
+    <None Include="Resources\Manage People1.png" />
+    <Content Include="Resources\member-add-on-300x300.png" />
+    <None Include="Resources\member-card1.png" />
+    <None Include="Resources\member-add-on-300x3001.png" />
+    <Content Include="Resources\menu %281%29.png" />
+    <Content Include="Resources\menu.png" />
+    <Content Include="Resources\money 32 - 2.png" />
+    <None Include="Resources\money 32 - 21.png" />
+    <Content Include="Resources\money 32.png" />
+    <None Include="Resources\money 321.png" />
+    <Content Include="Resources\motivation1.jpg" />
+    <None Include="Resources\motivation11.jpg" />
+    <Content Include="Resources\navigation.png" />
+    <Content Include="Resources\New Application 64.png" />
+    <None Include="Resources\New Application 641.png" />
+    <Content Include="Resources\New book.png" />
+    <Content Include="Resources\New Driving License 32.png" />
+    <None Include="Resources\New Driving License 321.png" />
+    <Content Include="Resources\Next 32.png" />
+    <None Include="Resources\Next 321.png" />
+    <Content Include="Resources\Next 64.png" />
+    <None Include="Resources\Next 641.png" />
+    <Content Include="Resources\note.png" />
+    <Content Include="Resources\Notes 32.png" />
+    <None Include="Resources\Notes 321.png" />
+    <Content Include="Resources\Number 32.png" />
+    <None Include="Resources\online-library1.png" />
+    <None Include="Resources\Number 321.png" />
+    <Content Include="Resources\open-book %281%29.png" />
+    <Content Include="Resources\open-book %281%291.png" />
+    <Content Include="Resources\open-book.png" />
+    <Content Include="Resources\overdue.png" />
+    <Content Include="Resources\padlock.png" />
+    <Content Include="Resources\padlock1.png" />
+    <Content Include="Resources\PassedTests 32.png" />
+    <None Include="Resources\PassedTests 321.png" />
+    <Content Include="Resources\Password 32.png" />
+    <None Include="Resources\Password 321.png" />
+    <Content Include="Resources\password.png" />
+    <Content Include="Resources\payment.png" />
+    <Content Include="Resources\payment1.png" />
+    <Content Include="Resources\penalty %281%29.png" />
+    <Content Include="Resources\penalty.png" />
+    <Content Include="Resources\People 400.png" />
+    <None Include="Resources\People 4001.png" />
+    <Content Include="Resources\People 512.png" />
+    <None Include="Resources\People 5121.png" />
+    <Content Include="Resources\People 64.png" />
+    <None Include="Resources\People 641.png" />
+    <Content Include="Resources\Person 32.png" />
+    <None Include="Resources\Person 321.png" />
+    <Content Include="Resources\PersonDetails 32.png" />
+    <None Include="Resources\PersonDetails 321.png" />
+    <Content Include="Resources\PersonLicenseHistory 32.png" />
+    <None Include="Resources\PersonLicenseHistory 321.png" />
+    <Content Include="Resources\PersonLicenseHistory 512.png" />
+    <None Include="Resources\PersonLicenseHistory 5121.png" />
+    <Content Include="Resources\pexels-egeardaphotos-2148533277-30149469.jpg" />
+    <None Include="Resources\pexels-egeardaphotos-2148533277-301494691.jpg" />
+    <Content Include="Resources\pexels-roger-arbisi-166056305-10978972 %281%29.jpg" />
+    <None Include="Resources\pexels-roger-arbisi-166056305-10978972 %281%291.jpg" />
+    <Content Include="Resources\pexels-vadutskevich-13437178.jpg" />
+    <None Include="Resources\pexels-vadutskevich-134371781.jpg" />
+    <Content Include="Resources\Phone 32.png" />
+    <None Include="Resources\Phone 321.png" />
+    <Content Include="Resources\phone.png" />
+    <Content Include="Resources\power.png" />
+    <Content Include="Resources\profile %281%29.png" />
+    <Content Include="Resources\profile.png" />
+    <Content Include="Resources\profit %281%29.png" />
+    <Content Include="Resources\profit.png" />
+    <Content Include="Resources\program.png" />
+    <Content Include="Resources\Question 32.png" />
+    <None Include="Resources\Question 321.png" />
+    <Content Include="Resources\quill-pen %281%29.png" />
+    <Content Include="Resources\quill-pen.png" />
+    <Content Include="Resources\quill.png" />
+    <Content Include="Resources\red-x-mark-transparent-background-3.png" />
+    <Content Include="Resources\Release Detained License 32.png" />
+    <None Include="Resources\Release Detained License 321.png" />
+    <Content Include="Resources\Release Detained License 512.png" />
+    <None Include="Resources\Release Detained License 5121.png" />
+    <Content Include="Resources\Release Detained License 64.png" />
+    <None Include="Resources\Release Detained License 641.png" />
+    <Content Include="Resources\Renew Driving License 32.png" />
+    <None Include="Resources\Renew Driving License 321.png" />
+    <Content Include="Resources\report.png" />
+    <Content Include="Resources\reservation %281%29.png" />
+    <Content Include="Resources\reservation.png" />
+    <Content Include="Resources\Retake Test 32.png" />
+    <None Include="Resources\Retake Test 321.png" />
+    <Content Include="Resources\return book png.png" />
+    <Content Include="Resources\return book.png" />
+    <Content Include="Resources\return-book-1-560407.png" />
+    <Content Include="Resources\return.png" />
+    <Content Include="Resources\return1.png" />
+    <Content Include="Resources\right-arrow.png" />
+    <Content Include="Resources\Save 32.png" />
+    <None Include="Resources\Save 321.png" />
+    <Content Include="Resources\save-icon--1.png" />
+    <Content Include="Resources\Schedule Test 32.png" />
+    <None Include="Resources\Schedule Test 321.png" />
+    <Content Include="Resources\Schedule Test 512.png" />
+    <None Include="Resources\Schedule Test 5121.png" />
+    <Content Include="Resources\search-file.png" />
+    <Content Include="Resources\search.gif" />
+    <Content Include="Resources\search.png" />
+    <Content Include="Resources\search1.gif" />
+    <None Include="Resources\search2.gif" />
+    <None Include="Resources\search11.gif" />
+    <Content Include="Resources\SearchPerson.png" />
+    <None Include="Resources\SearchPerson1.png" />
+    <Content Include="Resources\send email 32.png" />
+    <None Include="Resources\send email 321.png" />
+    <Content Include="Resources\session.png" />
+    <None Include="Resources\settings %281%291.png" />
+    <None Include="Resources\settings1.png" />
+    <Content Include="Resources\Sign Out 32.png" />
+    <None Include="Resources\Sign Out 321.png" />
+    <Content Include="Resources\SignOut 64.png" />
+    <None Include="Resources\SignOut 641.png" />
+    <Content Include="Resources\sign_in 32.png" />
+    <None Include="Resources\sign_in 321.png" />
+    <Content Include="Resources\sign_out 32 -2.png" />
+    <None Include="Resources\sign_out 32 -21.png" />
+    <Content Include="Resources\skill.png" />
+    <Content Include="Resources\splash.jpg" />
+    <Content Include="Resources\stack-of-books.png" />
+    <Content Include="Resources\stack-of-books1.png" />
+    <Content Include="Resources\staff.png" />
+    <Content Include="Resources\Statics.png" />
+    <Content Include="Resources\Street Test 32.png" />
+    <None Include="Resources\Street Test 321.png" />
+    <Content Include="Resources\student-card.png" />
+    <Content Include="Resources\student.png" />
+    <Content Include="Resources\study %281%29.png" />
+    <Content Include="Resources\study.png" />
+    <None Include="Resources\subscriber %281%291.png" />
+    <None Include="Resources\subscriber1.png" />
+    <Content Include="Resources\team.png" />
+    <Content Include="Resources\Test 32.png" />
+    <None Include="Resources\Test 321.png" />
+    <Content Include="Resources\Test Type 64.png" />
+    <None Include="Resources\Test Type 641.png" />
+    <Content Include="Resources\TestType 32.png" />
+    <None Include="Resources\TestType 321.png" />
+    <Content Include="Resources\TestType 512.png" />
+    <None Include="Resources\TestType 5121.png" />
+    <Content Include="Resources\time-management %281%29.png" />
+    <Content Include="Resources\time-management.png" />
+    <Content Include="Resources\title.png" />
+    <Content Include="Resources\User 32 -2.png" />
+    <None Include="Resources\User 32 -21.png" />
+    <Content Include="Resources\user-avatar %281%29.png" />
+    <Content Include="Resources\user.png" />
+    <Content Include="Resources\user1.png" />
+    <Content Include="Resources\user2.png" />
+    <Content Include="Resources\Users 2 400.png" />
+    <None Include="Resources\Users 2 4001.png" />
+    <Content Include="Resources\Users 2 64.png" />
+    <None Include="Resources\Users 2 641.png" />
+    <Content Include="Resources\users 64.png" />
+    <None Include="Resources\users 641.png" />
+    <Content Include="Resources\view book gif.gif" />
+    <Content Include="Resources\view book gif1.gif" />
+    <None Include="Resources\view book gif2.gif" />
+    <None Include="Resources\view book gif11.gif" />
+    <Content Include="Resources\Vision 512.png" />
+    <None Include="Resources\Vision 5121.png" />
+    <Content Include="Resources\Vision Test 32.png" />
+    <None Include="Resources\Vision Test 321.png" />
+    <Content Include="Resources\wallpaper.jpg" />
+    <Content Include="Resources\wallpaper1.jpg" />
+    <None Include="Resources\wallpaper11.jpg" />
+    <Content Include="Resources\WallPaper2.jpg" />
+    <None Include="Resources\wallpaper3.jpg" />
+    <Content Include="Resources\warning.png" />
+    <Content Include="Resources\wave.png" />
+    <Content Include="Resources\Woman 32.png" />
+    <None Include="Resources\Woman 321.png" />
+    <Content Include="Resources\woman.png" />
+    <Content Include="Resources\writer %281%29.png" />
+    <Content Include="Resources\Written Test 32 Sechdule.png" />
+    <None Include="Resources\Written Test 32 Sechdule1.png" />
+    <Content Include="Resources\Written Test 32.png" />
+    <None Include="Resources\Written Test 321.png" />
+    <Content Include="Resources\Written Test 512.png" />
+    <None Include="Resources\Written Test 5121.png" />
+    <Content Include="Resources\yes-or-no.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

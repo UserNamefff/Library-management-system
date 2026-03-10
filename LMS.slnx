@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="LibraryDB_BusinessLayer/LibraryDB_BusinessLayer.csproj" Id="36a89749-e042-4d40-bd33-955bd8c6667c" />
+  <Project Path="LibraryDB_DataAccess/LibraryDB_DataAccess.csproj" Id="7865ce2c-a68c-434f-befb-4a39b0f7237c" />
+  <Project Path="LMS/LMS.csproj" Id="7e151725-1458-463a-bef8-ebae92e8ff6f" />
+</Solution>
