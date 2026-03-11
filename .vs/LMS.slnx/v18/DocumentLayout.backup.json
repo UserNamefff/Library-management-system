@@ -122,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -143,6 +143,14 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -177,8 +185,7 @@
               "ToolTip": "C:\\Users\\Eng.Hafed\\source\\repos\\LMS\\LMS\\Main\\frmMain.cs [Design]",
               "RelativeToolTip": "LMS\\Main\\frmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T20:58:12.147Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-09T20:58:12.147Z"
             },
             {
               "$type": "Document",
@@ -190,8 +197,7 @@
               "RelativeToolTip": "LMS\\frm.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T11:47:54.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T11:47:54.414Z"
             },
             {
               "$type": "Document",
@@ -227,8 +233,7 @@
               "RelativeToolTip": "LMS\\Book\\frmAddBooks.cs",
               "ViewState": "AgIAAJcAAAAAAAAAAAAAwJ4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T10:35:34.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T10:35:34.204Z"
             },
             {
               "$type": "Document",
@@ -274,8 +279,7 @@
               "RelativeToolTip": "LMS\\Main\\frmMain.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAcwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T21:43:25.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T21:43:25.747Z"
             },
             {
               "$type": "Document",
